@@ -1,0 +1,35 @@
+{
+  "name": "tictacreact-backend",
+  "version": "1.0.0",
+  "description": "A simple realtime tictactoe server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewitgabi/tictacreact-backend.git"
+  },
+  "keywords": [
+    "tictactoe"
+  ],
+  "author": "codewitgabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewitgabi/tictacreact-backend/issues"
+  },
+  "homepage": "https://github.com/codewitgabi/tictacreact-backend#readme",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.11.30",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3",
+    "uuid": "^9.0.1"
+  }
+}
